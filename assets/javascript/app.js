@@ -56,5 +56,40 @@ var questions = [{
     answers: ["Tom Cruise", "Chris Hemsworth", "Christian Bale", "Robert Downey Jr"],
     correctAnswer: "Christain Bale",
     image: ""
-}]
+}];
+
+
+
+var game = {
+    questions: questions,
+    currentQuestion: 0,
+    counter: countStartNumber,
+    correct: 0,
+    incorrect:0,
+    countdown: function(){
+        game.counter--;
+        $('#counter-number').html(game.counter);
+
+        if (game.counter === 0){
+            console.log('TIME UP');
+            game.timeUp();
+        }
+    },
+    loadQuestion: function(){
+            timer = setInterval(game.countdown, 1000);
+            panel.html('<h2>' + questions[this.currentQuestion].question + '<.h2>');
+            for (var i = 0; i < questions[this.currentQuestion].answers.length; i++){
+                panel.append('<button class="answer-button" id="button"' + 'data-name="' + questions[this.currentQuestion].answers[i] + '">' + questions[this.currentQuestion].answers[i]+'</button>');
+             }
+    },
+
+    nextQuestion: function(){
+        game.counter = countStartNumber;
+        $('#counter-number').html(game.counter);
+        game.currentQuestion++;
+        game.loadQuestion();
+    }
+}
+
+
 
