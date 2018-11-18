@@ -1,4 +1,22 @@
+html, body{
+    height: 100%;
+}
+
 body{
-    background-image: url(assets/iamges/questionmarks.jpg);
+    background-image: url("../images/mark.jpg");
+    text-align: center;
+}
+
+#wrapper{
+    margin: auto;
+    align-items: center;
+    width: 65%;
+    height: 75%;
+    background-color: purple;
+  
+}
+
+img{
+    height: 250px;
 }
 

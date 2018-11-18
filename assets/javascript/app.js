@@ -116,7 +116,7 @@ var game = {
       quiz.append('<h3>Correct Answers: ' + game.correct + '</h3>');
       quiz.append('<h3>Incorrect Answers: ' + game.incorrect + '</h3>');
       quiz.append('<h3>Unanswered: ' + (questions.length - (game.incorrect + game.correct)) + '</h3>');
-      quiz.append('<br><button id="start-over">Start Over?</button>');
+      quiz.append('<br><button id="start-over">Start Over</button>');
     },
     clicked: function(e) {
       clearInterval(timer);
