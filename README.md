@@ -1,6 +1,6 @@
 # TriviaGame
 
-![Image description](TriviaGame/assets/images/trivia-home.png)
+
 
 This project is an 8 question timed trivia game made with javascript/jquery.
 
