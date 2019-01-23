@@ -1,5 +1,6 @@
 # TriviaGame
 
+
 This project is an 8 question timed trivia game made with javascript/jquery.
 
 The game begins by pressing the "start" button.
@@ -15,6 +16,11 @@ If you are incorrect, the screen will say "nope" and it will show you the correc
 At the end of the quiz youor results will be shown, showing correct, incorect and unasnwered questions. 
 
 You will also be prompted to click start over if you wish 
+
+<img width="406" alt="trivia-home" src="https://user-images.githubusercontent.com/44249106/50936522-a2e13080-1435-11e9-91d6-0c95720a9a02.PNG">
+
+<img width="380" alt="trivia-cubs" src="https://user-images.githubusercontent.com/44249106/50936545-b8565a80-1435-11e9-9469-019202bc458e.PNG">
+
 
 
 
