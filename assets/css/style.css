@@ -1,22 +1,37 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-body{
-    background-image: url("../images/mark.jpg");
-    text-align: center;
+body {
+  background-image: url("../images/mark.jpg");
+  text-align: center;
 }
 
-#wrapper{
-    margin: auto;
-    align-items: center;
-    width: 65%;
-    height: 75%;
-    background-color: purple;
-  
+#wrapper {
+  margin: auto;
+  align-items: center;
+  width: 65%;
+  height: 75%;
+  background-color: purple;
 }
 
-img{
-    height: 250px;
+h1{
+    color: orange
 }
 
+h2{
+    color: orange
+}
+
+img {
+  height: 250px;
+}
+
+.answer-button{
+    background-color: orange
+}
+
+#start {
+  background-color: orange;
+}

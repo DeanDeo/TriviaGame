@@ -130,7 +130,7 @@ var game = {
     answeredIncorrectly: function() {
       game.incorrect++;
       clearInterval(timer);
-      quiz.html('<h2>Nope!</h2>');
+      quiz.html('<h2>Nope! <i class="fas fa-thumbs-down"></i></h2>');
       quiz.append('<h3>The Correct Answer is: ' + questions[game.currentQuestion].correctAnswer + '</h3>');
       quiz.append('<img src="' + questions[game.currentQuestion].image + '" />');
   
@@ -143,7 +143,7 @@ var game = {
     answeredCorrectly: function(){
       clearInterval(timer);
       game.correct++;
-      quiz.html('<h2>Correct!</h2>');
+      quiz.html('<h2>Correct! <i class="fas fa-thumbs-up"></i></h2>');
       quiz.append('<img src="' + questions[game.currentQuestion].image + '" />');
   
       if (game.currentQuestion === questions.length - 1){
